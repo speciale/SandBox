@@ -1,0 +1,36 @@
+<body>
+	<div class="zone bg_00 fixed shadow">
+		<div class="page largeur">
+			<div class="nav hornav clearfix" id="nav">
+				<INCLURE{fond=inclure/nav,env} />
+			</div>
+		</div>
+	</div>
+	<div class="zone bg_deg padd_layout">
+		<div class="page largeur padd_layout clearfix">
+			<div class="header" id="header">
+				<INCLURE{fond=header/#ENV{type-page},env} />
+			</div>
+		</div>
+	</div>
+	<div class="zone">
+		<div class="page largeur clearfix padd_t">	
+			<div class="content" id="content">
+				<INCLURE{fond=content/#ENV{type-page},env} />
+			</div>
+			<div class="extra1 col" id="extra1">
+				<INCLURE{fond=extra1/#ENV{type-page},env} />
+			</div>
+			<div class="extra2 col" id="extra2">
+				<INCLURE{fond=extra2/#ENV{type-page},env} />
+			</div>			
+		</div>
+	</div>
+	<div class="zone bg_03">
+		<div class="page largeur  clearfix">		
+			<div class="footer" id="footer">
+				<INCLURE{fond=footer/#ENV{type-page},env} />
+			</div>
+		</div>
+	</div>	
+</body>

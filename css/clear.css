@@ -1,0 +1,21 @@
+.bloc{display:block;margin-bottom:1.5em}
+.box{display:block;margin-bottom:1.5em;padding:1.5em;background:#EEE}
+.first{margin-left:0;padding-left:0}
+.last{margin-right:0;padding-right:0}
+.top{margin-top:0;padding-top:0}
+.bottom{margin-bottom:0;padding-bottom:0}
+.left{float:left !important}
+.right{float:right !important}
+.center{text-align:center;margin-right:auto;margin-left:auto}
+.clear{clear:both}
+br.clear,.nettoyeur{clear:both;margin:0;padding:0;border:0;height:0;line-height:1px;font-size:1px}
+hr.clear{visibility:hidden}
+.clearfix:after{content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden}
+.clearfix{display:inline-table}
+/*\*/.clearfix{height:1%}
+.clearfix{display:block}
+/**/.offscreen,.invisible{position:absolute;left:-999em;height:1%}
+.hidden{visibility:hidden}
+.none{display:none}
+.todo{opacity:.5}
+.todo:hover{opacity:1}

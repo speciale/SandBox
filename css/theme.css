@@ -1,0 +1,79 @@
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:sans-serif}
+h1,.h1{color:#000}
+h2,h2 a,h2 a:focus,h2 a:hover,h2 a:active{color:#222}
+.h2,.h2 a,.h2 a:focus,.h2 a:hover,.h2 a:active{color:#222}
+.spip_code{color:#777}
+.spip_cadre{color:#777;background-color:#fff;border:1px solid #ddd}
+thead th,tbody th{background:#666;color:white}
+table.spip tr.row_even td,table.spip tr.row_even th{background:#eee}
+.header{margin:0;padding:1.5em 0;position:relative}
+.header .accueil{display:block;width:67%}
+.header .accueil .spip_logos{vertical-align:bottom;line-height:1em;margin-bottom:0}
+.header .accueil #nom_site_spip{vertical-align:bottom;font-size:2.2em;font-weight:normal}
+.header .formulaire_menu_lang{position:absolute;right:0;top:.90em;display:block;width:30%}
+.header .formulaire_menu_lang select{width:100%}
+
+
+
+.absoul{position:absolute;background:#EEE}
+.absoli{display:none;position:relative}
+
+li.item:hover .absoli{display:block}
+
+.hornav{background-color:#000}
+
+.hornav .menu{margin:0}
+.hornav .menu-items{float:left;width:100%;border:0}
+.hornav .menu-items .item{float:left;padding:0}
+
+.hornav .item a{color:#FFF;text-decoration:none;display:block;padding:.75em}
+
+.hornav .item .absoli a{color:#333}
+
+.hornav .item a:hover{background:#DDD;color:#900}
+
+.hornav .on{color:#000;background:#fff}
+
+.hornav .on a{color:#000}
+
+
+
+
+
+li.on.active{background:#900;color:#FFF}
+li.on.active a{color:#FFF}
+li.on.active ul li.absoli a{color:#000}
+li.on.active ul li.absoli a:hover{color:#900}
+
+#hierarchie{clear:both;margin-bottom:1.5em;font-size:.846em}
+#hierarchie,#hierarchie a{color:#666}
+.cartouche{margin-bottom:1.5em}
+.cartouche .spip_logos{float:right;margin-left:16px;margin-bottom:4px}
+.cartouche .info-publi{margin:0;padding:0;clear:left}
+.chapo{margin-bottom:1.5em;font-weight:bold;color:#666}
+.chapo .spip_cadre{color:#888}
+.ps,.notes{margin-bottom:1.5em}
+.notes{clear:both;font-size:.846em}
+.resume .liste-items .item{border-bottom:0}
+.liste-items .item .info-publi{display:block;margin:.5em 0}
+.liste-items .item .introduction{font-size:.923em}
+.liste.articles .spip_logos{float:right;clear:right;margin:.8em 0 4px 16px}
+.liste .articles .item .introduction{margin-top:.30em;line-height:1.40em;padding:.5em 0 1.5em 1em}
+.extra1 .menu{background:#fcfcfc;padding:0 .75em .75em;border:1px solid #ddd}
+.extra1 .menu-items{border-bottom:0}
+.extra1 .menu-items .item{list-style:square;margin-left:15px;padding:0;color:#333}
+.formulaire_recherche input.text{width:170px}
+a{color:#900;text-decoration:none}
+a:focus,a:hover,a:active{color:#46839b;text-decoration:underline}
+a.spip_out,a.spip_glossaire{color:#46839b;background:transparent url(img/spip_out.gif) no-repeat scroll right center;padding-right:12px}
+
+body .spip-admin-bloc,body .spip-admin-float {
+  bottom: 0 !important;
+  position: fixed;
+  top:auto;
+  right: 0 !important;
+  white-space: nowrap;
+  z-index: 100000000;
+  font-size: .7rem;
+}
+

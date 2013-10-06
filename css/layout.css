@@ -1,0 +1,50 @@
+body{margin:0;padding:0;text-align:center}
+.zone{position:relative;text-align:left;}
+.page{position:relative;margin:0 auto;text-align:left;/*background: rgba(0,0,0,.1);*/}
+.content{float:left;width:65%}
+.extra1{float:right;width:30%;overflow:hidden;margin-bottom:1.5em}
+.extra2{float:right;clear:right;width:30%;overflow:hidden;margin-bottom:1.5em}
+.footer{clear:both;width:100%;margin:0;font-size:.90em}
+.footer img{vertical-align:middle}
+.fixed{position:fixed; z-index: 2000;width: 100%;}
+
+.bg_01{background: #EEE;}
+.bg_02{background: #CCC;}
+.bg_03{background: #AAA;}
+.bg_00{background: #000;}
+.largeur{max-width:1024px;}
+.padd_t{padding-top:1rem;}
+.padd_layout{padding:2.5rem 0 0;}
+.shadow{box-shadow:0 5px 5px rgba(0,0,0,.18);}
+
+
+
+
+.bg_deg {
+  background-color: #000099;
+  background-image: linear-gradient(to right, #000033, #0000CC);
+  background-repeat: repeat-x;
+  color: #FFFFFF;
+  position: relative;
+  text-align: left;
+}
+
+
+.bg_deg:after {
+  background: url("img/bg_patt.png") repeat scroll 0 0 rgba(128, 128, 128, .5);
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+
+@media print{.extra1,.extra2,.footer{display:none}
+.page,.content{width:auto}
+}
